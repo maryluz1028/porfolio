@@ -53,7 +53,7 @@ export default {
             name:'Iberotec',
             sector:'Eduación',
             description:'Instituto de tecnologia del Perú',
-            link:'https://aulavirtual.igc.edu.pe'
+            link:'https://aulavirtual.iberotec.edu.pe/'
           } 
           ]
       }
