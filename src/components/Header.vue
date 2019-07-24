@@ -3,7 +3,7 @@
   <v-container> 
     <v-layout row wrap>
       <v-flex xs4 md2>
-          <div class="header-logo"><h1>Porfolio</h1></div> 
+          <div class="header-logo"><img :src="require(`../assets/favicon.png`)" alt="Wilber Pariona" ></div> 
       </v-flex>
       <v-flex xs8 md10  class="header-nav"> 
         <div id="toggle" class=" hidden-md-and-up  hidden-xl-and-up" @click="openMenu">
@@ -90,9 +90,12 @@ $md: 959px;
     align-items: center;
     justify-content: flex-end;
   }
-  &-logo{
-    h1{
-      color:#fff; 
+  &-logo{ 
+    padding-top:.5em;
+    padding-bottom:.5em;
+    img{
+      width:40px;
+      vertical-align:middle;
     }
   } 
   .menu{
