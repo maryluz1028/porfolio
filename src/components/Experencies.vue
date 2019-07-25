@@ -1,15 +1,15 @@
 <template>
     <div>  
-        <v-timeline align-top >
-                <v-timeline-item  color="red lighten-1" fill-dot
-                large  md12 data-aos="fade-up"  data-aos-offset="200"  data-aos-once="true">
+        <v-timeline align-top  :dense="$vuetify.breakpoint.smAndDown">
+            <v-timeline-item   color="red lighten-1" fill-dot 
+                large  data-aos="fade-up"  data-aos-offset="200"  data-aos-once="true" >
                 <template v-slot:icon>
                     <v-avatar>
                     <img :src="require('../assets/igclogo.png')">
                     </v-avatar>
                 </template>
                 <template v-slot:opposite  align-start >
-                    <span >Deciembre 2018 - Mayo 2019</span>
+                    <span >Deciembre 2018 - Junio 2019</span>
                 </template>
 
                 <v-card color="red lighten-1"
