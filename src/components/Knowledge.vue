@@ -25,7 +25,7 @@
                 >
                 {{ valueProgress-5 }}%
                 </v-progress-circular>  
-                <p>EDgrid,Bootstrap, Materializecss & Fundation</p>
+                <p>Tailwindcss, Bootstrap, Materializecss, Fundation & EDgrid</p>
               </v-flex>
                <v-flex xs12 sm6 md4 lg3 xl3>  
                 <v-progress-circular
