@@ -1,7 +1,7 @@
 <template> 
   <div> 
-    <svg class="morphsvg" id="morphsvg" width="100%" height="100%" viewBox="0 0 1366 660" preserveAspectRatio="none">
-      <path class="morph" d="M0,0H1366V52.367s-121.5,10.47-320,9.579S770,50.135,592,49.91s-169.606,2.519-324,3.565C115.371,54.514,0,49.019,0,49.019Z" fill="#183661"></path>
+    <svg class="morphsvg" id="morphsvg" width="100%" height="100%" viewBox="0 0 1366 650" preserveAspectRatio="none">
+      <path class="morph" d="M1365 -1H-1V49.9576C355 65.7911 512.158 43.0561 715 59.8432C1025 85.4985 1365 65.7274 1365 65.7274V-1Z" fill="#183661"></path>
     </svg> 
     <Header/> 
     <Banner/> 
@@ -61,10 +61,15 @@ $md: 959px;
 * {
   font-family: 'Raleway', sans-serif !important; 
 }
+h1,h2,h3,h4,h5 { 
+  font-family: 'Roboto Slab', serif  !important;
+
+}
+
 * i{ font-family: 'Material Icons' !important; }
 .morphsvg{ 
     width:100%;
-    height:690px;
+    height:650px;
     position:absolute;  
     top:0;
     left:0;
@@ -77,22 +82,34 @@ $md: 959px;
     // @media (max-width:960px){
     //   height:26%; 
     // }
+    // @media (max-width:650px){
+    //   height:735px; 
+    //   path.morph{
+    //    d: path("M0 0H1366V557.448C1150 569 1092.91 607.458 838.535 648.223C322 731 0 668.512 0 668.512V0Z"); 
+    //   }
+    // }  
     @media (max-width:650px){
-      height:700px; 
+      height:780px; 
       path.morph{
-       d: path("M0,0H1366V500s-178.5,58-376,58-225.5-50-408-58-214.5,12-360,12S0,500,0,500Z");
-     }
-    }  
+       d: path("M0 0H1366V492.82C1150 503.034 1092.91 537.033 838.535 573.072C322 646.252 0 573.072 0 573.072V0Z"); 
+      } 
+    }   
     @media (max-width:250px){
-       height:810px;  
-    } 
-    @media (max-width:220px){
-       height:8%;  
-    } 
+      height:850px; 
+    }   
+    
   
 }  
 .main{
   margin-top:1em;  
+  @media (max-width: 650px) {
+  margin-top:4em;  
+
+  }
+  @media (max-width: 325px) {
+    margin-top:2.5em;  
+
+  }
 } 
 
 </style>

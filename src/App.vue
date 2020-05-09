@@ -15,3 +15,8 @@ export default {
   }
 }
 </script> 
+
+<style lang="scss">
+  $primary:#183661;
+  
+</style>

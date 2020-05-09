@@ -10,6 +10,7 @@
   },
   "homepage": "https://wilbercode.github.io/porfolio",
   "dependencies": {
+    "@vuetify/cli-plugin-utils": "0.0.6",
     "animejs": "^3.0.1",
     "aos": "^3.0.0-beta.6",
     "core-js": "^2.6.5",

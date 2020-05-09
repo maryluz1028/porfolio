@@ -1,12 +1,11 @@
 <template>
-<v-container grid-list-md>
-  <v-layout row  wrap align-content-space-between="true">
+<v-container grid-list-md mb-4 >
+  <v-layout row  wrap align-content-space-between="true" class="card-wrap" >
     <template v-for="page in pages">  
-      <v-flex xs12 sm12 md6 lg6 :key="page.sertor"> 
+      <v-flex xs12 sm12 md6 lg6  px-3 py-3  :key="page.sertor"> 
         <v-card class="card">
           <v-img
-            class="white--text"
-            height="300px"
+            class="white--text" 
             :src="require(`../assets/${page.imgUrl}`)" 
           >
             <v-container fill-height fluid>
@@ -21,13 +20,10 @@
               <v-card-title >
               <div>
                 <span class="font-weight-bold">{{page.name}}</span> 
-                <p class="grey--text">{{page.sector}}</p>
-                <span></span>
+                <p class="grey--text">{{page.sector}}</p> 
+                <a  class="list-link py-2 pr-5" :href="page.link" target="_blank" >{{page.link}}</a> 
               </div>
-            </v-card-title>
-            <v-card-actions>
-              <v-btn ml-5 round="true"  color="orange" class="white--text" :href="page.link" target="_blank">Ver Página</v-btn> 
-          </v-card-actions>
+            </v-card-title> 
           </div>
         </v-card>
       </v-flex>
@@ -43,17 +39,27 @@ export default {
         pages:[
           {
             imgUrl:'igcscreenshot.png',
-            name:'IGC',
-            sector:'Eduación',
-            description:'Brinda programas de Educación Ejecutiva y Gerencial en Gestión Pública',
+            name:'IGC - Instituto de Gerencia y Gestión',
+            sector:'Eduación', 
             link:'https://igc.edu.pe'
+          }, 
+          {
+            imgUrl:'tendenzescreenshot.png',
+            name:'Tendenze Perú',
+            sector:'Agencia de Marketing',
+            link:'https://nuevo.tendenzeperu.com'
           },
           {
-            imgUrl:'iberotecscreenshot.png',
-            name:'Iberotec',
-            sector:'Eduación',
-            description:'Instituto de tecnologia del Perú',
-            link:'https://aulavirtual.iberotec.edu.pe/'
+            imgUrl:'nmscreenshot.png',
+            name:'Nuevo Mundo Espacios',
+            sector:'Inmobiliaria',
+            link:'http://www.nuevomundoespacios.com.pe/'
+          },
+          {
+            imgUrl:'feriasdigitalescreenshot.png',
+            name:'Ferias Digitales',
+            sector:'Agencia de Marketing', 
+            link:'https://feriasdigitales.pe/'
           } 
           ]
       }
@@ -62,7 +68,15 @@ export default {
 </script>
 <style lang="scss" >
   .card{
+    &-wrap{
+      margin:0 -40px !important;
+      @media (max-width:900px){ 
+           margin:0 -34px !important;
+
+      }
+    } 
     border-radius: 10px;
+    box-shadow: var(--shadow-lg);
     &-description{
       padding: 1em;
     }
