@@ -1,7 +1,7 @@
 <template> 
   <div> 
     <svg class="morphsvg" id="morphsvg" width="100%" height="100%" viewBox="0 0 1366 650" preserveAspectRatio="none">
-      <path class="morph" d="M1365 -1H-1V49.9576C355 65.7911 512.158 43.0561 715 59.8432C1025 85.4985 1365 65.7274 1365 65.7274V-1Z" fill="#183661"></path>
+      <path class="morph" d="M1365 -1H-1V49.9576C355 65.7911 512.158 43.0561 715 59.8432C1025 85.4985 1365 65.7274 1365 65.7274V-1Z" fill="#202aab"></path>
     </svg> 
     <Header/> 
     <Banner/> 

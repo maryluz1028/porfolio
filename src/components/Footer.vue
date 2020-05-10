@@ -1,7 +1,7 @@
 <template> 
   <v-footer
     dark
-    height="auto" id="Contactos" class="mt-5"
+    height="auto" id="Contactos" class="mt-5  "
   >
     <v-card
       class="flex"
@@ -42,7 +42,7 @@
         </v-container>
       </v-card-title>
 
-      <v-card-actions class=" footer-bottom  justify-center py-4 font-weight-thin " > 
+      <v-card-actions class=" footer-bottom  justify-center py-4 font-weight-thin   " > 
        Copyright &copy;{{ new Date().toISOString().substr(0, 4)}} — Wilber Pariona
       </v-card-actions>
     </v-card>
@@ -79,8 +79,8 @@ export default {
         }
       }
       &-bottom{
-         border-top: 1px solid rgba($color: #fff, $alpha: .1); 
-         background: var(--primary);
+         border-top: 1px solid rgba( 255,255,255, .08 );  
+         background: var(--v-primary-base);
       }
     }
        

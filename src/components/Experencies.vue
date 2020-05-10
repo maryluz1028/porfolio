@@ -117,9 +117,8 @@ export default {
 </script>
 <style lang="scss" >
 
-$primary:#183661;
-:root{
-    --primary:#183661;
+$primary:#202aab;
+:root{ 
     --shadow-lg: -15px 15px 40px rgba(0, 0, 0, 0.03), -28px 16px 22px rgba(0, 0, 0, 0.01), -9px 31px 15px rgba(0, 0, 0, 0.01), 0 0 0 1px rgba(0, 0, 0, 0.03);
 }
 .shadow{
@@ -147,7 +146,7 @@ $primary:#183661;
 
 .experencie{
     &-card{
-        border-color:var(--primary)!important; 
+        border-color: var(--v-primary-base)!important; 
         box-shadow: var(--shadow-lg);
         border-radius: 22px; 
         &::before, &::after{
@@ -175,14 +174,14 @@ $primary:#183661;
         @media (max-width:400px){ 
             padding: .8em 2.5em !important;
             font-size: 16px !important;
-            box-shadow: 10px 0 0 0 var(--primary),-10px 0 0 0 var(--primary);
+            box-shadow: 10px 0 0 0 var(--v-primary-base),-10px 0 0 0 var(--v-primary-base);
         } 
         &::before{
             content: '';
             position: absolute;
             height: 100%;
             width: 10px; 
-            background: var(--primary); 
+            background: var(--v-primary-base); 
             
         }
         &::after{
@@ -284,7 +283,7 @@ $primary:#183661;
         }
     }
     &-link{
-        border: 2px solid $primary ;
+        border: 2px solid  var(--v-primary-base) ;
         padding: 4px 3.2em 4px 8px;
         border-radius: 4px;
         position: relative;
@@ -306,7 +305,7 @@ $primary:#183661;
         &::after{
             content: 'ver'; 
             color: white;
-            background: $primary; 
+            background:var(--v-primary-base); 
             position: absolute;
             right: 0;
             top: 0;
@@ -323,17 +322,5 @@ $primary:#183661;
     font-weight: 500;
 }
 
-    /* Rectangle 4 */
-
-// position: absolute;
-// width: 504px;
-// height: 494px;
-// left: 91px;
-// top: 1717px;
-
-// background: #FFFFFF;
-// border: 1px solid rgba(0, 0, 0, 0.03);
-// box-sizing: border-box;
-// box-shadow: -15px 15px 40px rgba(0, 0, 0, 0.03), -28px 16px 22px rgba(0, 0, 0, 0.01), -9px 31px 15px rgba(0, 0, 0, 0.01);
-// border-radius: 20px;
+    
 </style>
