@@ -119,11 +119,11 @@ export default {
 
 $primary:#202aab;
 :root{ 
-    --shadow-lg: -15px 15px 40px rgba(0, 0, 0, 0.03), -28px 16px 22px rgba(0, 0, 0, 0.01), -9px 31px 15px rgba(0, 0, 0, 0.01), 0 0 0 1px rgba(0, 0, 0, 0.03);
+    --shadow-lg: -15px 15px 40px 0 rgba(0, 0, 0, 0.03), -28px 16px 22px 0 rgba(0, 0, 0, 0.01), -9px 31px 25px 0 rgba(0, 0, 0, 0.01), 0 0 0 1px rgba(0, 0, 0, 0.03);
 }
 .shadow{
     &-lg{
-    box-shadow: -15px 15px 40px rgba(0, 0, 0, 0.03), -28px 16px 22px rgba(0, 0, 0, 0.01), -9px 31px 15px rgba(0, 0, 0, 0.005);
+     box-shadow:-15px 15px 40px 0 rgba(0, 0, 0, 0.03), -28px 16px 22px 0 rgba(0, 0, 0, 0.01), -9px 31px 25px 0 rgba(0, 0, 0, 0.01), 0 0 0 1px rgba(0, 0, 0, 0.03);
     }
 } 
 .v-card__text{
