@@ -5,7 +5,7 @@
     <v-flex xs12 sm12 md4 lg4 xl4 >  
       <div class="banner-bio">
         <h2>Hola, Soy Wilber</h2>
-        <p>Especialista en Desarrollo Web con experencia.
+        <p>Especialista en Desarrollo Web con más de 3 años de experencia.
           Tengo la capacidad de crear páginas Web resposive,
           plantillas perzonalizadas para Wordpress,
           tiendas online con WooCommerce, optimización de velocidad de 
