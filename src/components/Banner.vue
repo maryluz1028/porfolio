@@ -5,7 +5,7 @@
     <v-flex xs12 sm12 md4 lg4 xl4 >  
       <div class="banner-bio">
         <h2>Hola, Soy Wilber</h2>
-        <p>Especialista en Desarrollo Web con más de 3 años de experencia.
+        <p>Especialista en Desarrollo Web con más de 3 años de experiencia.
           Tengo la capacidad de crear páginas Web resposive,
           plantillas perzonalizadas para Wordpress,
           tiendas online con WooCommerce, optimización de velocidad de 
@@ -14,7 +14,7 @@
           nuevas funcionalidades de la web y aprender, asumir 
           nuevos retos y superarme como profesional.</p>
       </div>
-      
+       
       <v-btn class="banner-btn secondary "  round  data-aos="fade-up"  data-aos-offset="200"  data-aos-once="true" href="https://drive.google.com/file/d/1HtHsHc4pxJf7QvyRH0tbGRQkEpU4vhkS/view" target="_blank"   >Descargar CV </v-btn>
       <v-btn class="banner-btn  banner-btn--whatsapp" dark="false" round  color="secondary"    outline data-aos="fade-up"  data-aos-offset="200" data-aos-delay="300" data-aos-once="true" href="https://api.whatsapp.com/send?phone=51938343796&text=Hola" target="_blank" >Enviar mensaje </v-btn>
       <div class="banner-avatar d-inline-flex py-3 px-4" >
