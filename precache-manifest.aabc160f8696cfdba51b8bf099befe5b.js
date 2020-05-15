@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "59eb3601394dd87f30f82433fb39dd94",
-    "url": "/porfolio/fonts/Roboto-Black.59eb3601.woff2"
+    "revision": "b52fac2bb93c5858f3f2675e4b52e1de",
+    "url": "/porfolio/fonts/Roboto-Bold.b52fac2b.woff2"
   },
   {
     "revision": "c93a94569aeee30835c6",
     "url": "/porfolio/js/about.8d0771c2.js"
   },
   {
-    "revision": "b052c3b7c7d92a08810f",
-    "url": "/porfolio/js/app.2c48707a.js"
+    "revision": "39437c7f865e84bea83b",
+    "url": "/porfolio/js/app.478fed30.js"
   },
   {
     "revision": "735ab4f94fbcd57074377afca324c813",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/porfolio/img/wilberpariona.7d064774.jpg"
   },
   {
-    "revision": "721ad00317109dfe0ff3c9501437320b",
+    "revision": "9680d4825112018614693d6bf1744047",
     "url": "/porfolio/index.html"
   },
   {
@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/porfolio/fonts/MaterialIcons-Regular.a37b0c01.ttf"
   },
   {
-    "revision": "d26871e8149b5759f814fd3c7a4f784b",
-    "url": "/porfolio/fonts/Roboto-Light.d26871e8.woff2"
-  },
-  {
     "revision": "ad538a69b0e8615ed0419c4529344ffc",
     "url": "/porfolio/fonts/Roboto-Thin.ad538a69.woff2"
+  },
+  {
+    "revision": "d26871e8149b5759f814fd3c7a4f784b",
+    "url": "/porfolio/fonts/Roboto-Light.d26871e8.woff2"
   },
   {
     "revision": "73f0a88bbca1bec19fb1303c689d04c6",
@@ -88,8 +88,8 @@ self.__precacheManifest = [
     "url": "/porfolio/fonts/Roboto-Medium.90d16760.woff2"
   },
   {
-    "revision": "b52fac2bb93c5858f3f2675e4b52e1de",
-    "url": "/porfolio/fonts/Roboto-Bold.b52fac2b.woff2"
+    "revision": "59eb3601394dd87f30f82433fb39dd94",
+    "url": "/porfolio/fonts/Roboto-Black.59eb3601.woff2"
   },
   {
     "revision": "e0008bb072a0f4f57ebbe9bb9e3bbce1",
@@ -100,24 +100,24 @@ self.__precacheManifest = [
     "url": "/porfolio/fonts/Roboto-LightItalic.e8eaae90.woff2"
   },
   {
-    "revision": "4fe0f73cc919ba2b7a3c36e4540d725c",
-    "url": "/porfolio/fonts/Roboto-BoldItalic.4fe0f73c.woff"
-  },
-  {
-    "revision": "4357beb823a5f8d65c260f045d9e019a",
-    "url": "/porfolio/fonts/Roboto-RegularItalic.4357beb8.woff2"
+    "revision": "cc2fadc3928f2f223418887111947b40",
+    "url": "/porfolio/fonts/Roboto-BlackItalic.cc2fadc3.woff"
   },
   {
     "revision": "13ec0eb5bdb821ff4930237d7c9f943f",
     "url": "/porfolio/fonts/Roboto-MediumItalic.13ec0eb5.woff2"
   },
   {
-    "revision": "94008e69aaf05da75c0bbf8f8bb0db41",
-    "url": "/porfolio/fonts/Roboto-BoldItalic.94008e69.woff2"
+    "revision": "4357beb823a5f8d65c260f045d9e019a",
+    "url": "/porfolio/fonts/Roboto-RegularItalic.4357beb8.woff2"
   },
   {
     "revision": "f75569f8a5fab0893fa712d8c0d9c3fe",
     "url": "/porfolio/fonts/Roboto-BlackItalic.f75569f8.woff2"
+  },
+  {
+    "revision": "94008e69aaf05da75c0bbf8f8bb0db41",
+    "url": "/porfolio/fonts/Roboto-BoldItalic.94008e69.woff2"
   },
   {
     "revision": "d3b47375afd904983d9be8d6e239a949",
@@ -128,12 +128,12 @@ self.__precacheManifest = [
     "url": "/porfolio/fonts/MaterialIcons-Regular.e79bfd88.eot"
   },
   {
-    "revision": "1d6594826615607f6dc860bb49258acb",
-    "url": "/porfolio/fonts/Roboto-Medium.1d659482.woff"
-  },
-  {
     "revision": "35b07eb2f8711ae08d1f58c043880930",
     "url": "/porfolio/fonts/Roboto-Regular.35b07eb2.woff"
+  },
+  {
+    "revision": "1d6594826615607f6dc860bb49258acb",
+    "url": "/porfolio/fonts/Roboto-Medium.1d659482.woff"
   },
   {
     "revision": "50d75e48e0a3ddab1dd15d6bfb9d3700",
@@ -148,20 +148,20 @@ self.__precacheManifest = [
     "url": "/porfolio/fonts/Roboto-ThinItalic.8a96edbb.woff"
   },
   {
-    "revision": "13efe6cbc10b97144a28310ebdeda594",
-    "url": "/porfolio/fonts/Roboto-LightItalic.13efe6cb.woff"
-  },
-  {
     "revision": "f5902d5ef961717ed263902fc429e6ae",
     "url": "/porfolio/fonts/Roboto-RegularItalic.f5902d5e.woff"
+  },
+  {
+    "revision": "13efe6cbc10b97144a28310ebdeda594",
+    "url": "/porfolio/fonts/Roboto-LightItalic.13efe6cb.woff"
   },
   {
     "revision": "83e114c316fcc3f23f524ec3e1c65984",
     "url": "/porfolio/fonts/Roboto-MediumItalic.83e114c3.woff"
   },
   {
-    "revision": "cc2fadc3928f2f223418887111947b40",
-    "url": "/porfolio/fonts/Roboto-BlackItalic.cc2fadc3.woff"
+    "revision": "4fe0f73cc919ba2b7a3c36e4540d725c",
+    "url": "/porfolio/fonts/Roboto-BoldItalic.4fe0f73c.woff"
   },
   {
     "revision": "570eb83859dc23dd0eec423a49e147fe",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/porfolio/css/chunk-vendors.309e368d.css"
   },
   {
-    "revision": "b052c3b7c7d92a08810f",
+    "revision": "39437c7f865e84bea83b",
     "url": "/porfolio/css/app.137f65d3.css"
   }
 ];
