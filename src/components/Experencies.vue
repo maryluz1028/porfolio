@@ -9,7 +9,7 @@
                     </v-avatar>
                 </template>
                 <template v-slot:opposite  align-start >
-                    <span >Deciembre 2018 - Junio 2019</span>
+                    <span >Agosto 2019 - Mayo 2019</span>
                 </template>
 
                 <v-card color="white lighten-1 pt-4 experencie-card "

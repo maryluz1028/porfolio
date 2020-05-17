@@ -5,14 +5,7 @@
     <v-flex xs12 sm12 md4 lg4 xl4 >  
       <div class="banner-bio">
         <h2>Hola, Soy Wilber</h2>
-        <p>Especialista en Desarrollo Web con más de 3 años de experiencia.
-          Tengo la capacidad de crear páginas Web resposive,
-          plantillas perzonalizadas para Wordpress,
-          tiendas online con WooCommerce, optimización de velocidad de 
-          carga de una web, configuración esencial de posicionamiento SEO, 
-          emailings perzonalizadas. Dispuesto a investigar 
-          nuevas funcionalidades de la web y aprender, asumir 
-          nuevos retos y superarme como profesional.</p>
+        <p>Especialista en Desarrollo Web con más de 3 años de experiencia. Puedo crear páginas Web responsivas, personalizar plantillas para Wordpresss, integrar Wordpress y WooCommerce para una tienda online, optimizar la velocidad de carga de una web, configuración esencial de posicionamiento SEO y maquetar emailings personalizadas. Dispuesto a investigar nuevas funcionalidades de la web y aprender, asumir nuevos retos y superarme como profesional.</p>
       </div>
        
       <v-btn class="banner-btn secondary "  round  data-aos="fade-up"  data-aos-offset="200"  data-aos-once="true" href="https://drive.google.com/file/d/1HtHsHc4pxJf7QvyRH0tbGRQkEpU4vhkS/view" target="_blank"   >Descargar CV </v-btn>
