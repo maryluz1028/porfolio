@@ -5,7 +5,7 @@
     <v-flex xs12 sm12 md4 lg4 xl4 >  
       <div class="banner-bio">
         <h2>Hola, Soy Wilber</h2>
-        <p>Especialista en Desarrollo Web con más de 3 años de experiencia. Puedo crear páginas Web responsivas, personalizar plantillas para Wordpresss, integrar Wordpress y WooCommerce para una tienda online, optimizar la velocidad de carga de una web, configuración esencial de posicionamiento SEO y maquetar emailings personalizadas. Dispuesto a investigar nuevas funcionalidades de la web y aprender, asumir nuevos retos y superarme como profesional.</p>
+        <p>Especialista en Desarrollo Web con más de 3 años de experiencia. Creo páginas Web responsivas, personalizar plantillas para Wordpress, integrar Wordpress y WooCommerce para una tienda online, optimizar la velocidad de carga de una web, configuración esencial de posicionamiento SEO y maquetar emailings personalizadas. Dispuesto a investigar nuevas funcionalidades de la web, aprender y asumir nuevos retos.</p>
       </div>
        
       <v-btn class="banner-btn secondary "  round  data-aos="fade-up"  data-aos-offset="200"  data-aos-once="true" href="https://drive.google.com/file/d/1HtHsHc4pxJf7QvyRH0tbGRQkEpU4vhkS/view" target="_blank"   >Descargar CV </v-btn>
@@ -17,7 +17,7 @@
         <div class="d-flex  align-center" >
            <div class="ml-4">
              <p class="mb-2 font-weight-bold banner-avatar-number	">+51938343796</p>  
-             <p  class="mb-0 " >Lima- Perú</p>
+             <p  class="mb-0 " >Lima - Perú</p>
            </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ $md: 959px;
   }
   &-bio{
     h2{
-      margin-top:2em;
+      margin-top:1em;
       margin-bottom:.8em;
     }
     color:#fff;

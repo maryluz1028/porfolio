@@ -38,25 +38,25 @@ export default {
       return{
         pages:[
           {
-            imgUrl:'igcscreenshot.png',
+            imgUrl:'igcscreenshot.jpg',
             name:'IGC - Instituto de Gerencia y Gestión',
             sector:'Eduación', 
             link:'https://igc.edu.pe'
           }, 
           {
-            imgUrl:'tendenzescreenshot.png',
+            imgUrl:'tendenzescreenshot.jpg',
             name:'Tendenze Perú',
             sector:'Agencia de Marketing',
             link:'https://nuevo.tendenzeperu.com'
           },
           {
-            imgUrl:'nmscreenshot.png',
+            imgUrl:'nmscreenshot.jpg',
             name:'Nuevo Mundo Espacios',
             sector:'Inmobiliaria',
             link:'http://www.nuevomundoespacios.com.pe/'
           },
           {
-            imgUrl:'feriasdigitalescreenshot.png',
+            imgUrl:'feriasdigitalescreenshot.jpg',
             name:'Ferias Digitales',
             sector:'Agencia de Marketing', 
             link:'https://feriasdigitales.pe/'
