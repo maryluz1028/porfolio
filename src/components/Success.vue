@@ -60,6 +60,18 @@ export default {
             name:'Ferias Digitales',
             sector:'Agencia de Marketing', 
             link:'https://feriasdigitales.pe/'
+          },
+          {
+            imgUrl:'lunademielscreenshot.png',
+            name:'Portal de luna de miel',
+            sector:'Guía para parejas', 
+            link:'https://www.lunademiel.com.pe/'
+          },
+          {
+            imgUrl:'magaescreenshot.png',
+            name:'Il magazzino delle sorelle',
+            sector:'Decoración', 
+            link:'https://maga.tendenzeperu.com/'
           } 
           ]
       }
