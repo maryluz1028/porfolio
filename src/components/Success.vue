@@ -72,6 +72,18 @@ export default {
             name:'Il magazzino delle sorelle',
             sector:'Decoración', 
             link:'https://maga.tendenzeperu.com/'
+          },
+          {
+            imgUrl:'prestigescreenshot.jpg',
+            name:'Prestige Dental Care',
+            sector:'Salud', 
+            link:'https://prestigedentalcarefl.com/'
+          },
+          {
+            imgUrl:'cyberscreenshot.png',
+            name:'Cyber Week Baby',
+            sector:'Tienda', 
+            link:'https://cyberweekbyby.feriasdigitales.pe/'
           } 
           ]
       }

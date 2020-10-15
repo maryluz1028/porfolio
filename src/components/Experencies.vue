@@ -28,6 +28,7 @@
                             </ul>
                             <h2  class="black--text mt-3 " >Logros:</h2>
                              <ul class="list list-success mt-2" >
+                                 <li>Prestige Dental Care: <a  class="list-link" href="https://prestigedentalcarefl.com" target="_blank" >https://prestigedentalcarefl.com</a> </li>
                                 <li>Nuevo mundo espacios: <a  class="list-link" href="http://www.nuevomundoespacios.com.pe/" target="_blank" >http://www.nuevomundoespacios.com.pe/</a> </li>
                                 <li>Tendenze Perú: <a  class="list-link" href="https://nuevo.tendenzeperu.com/" target="_blank" >https://nuevo.tendenzeperu.com</a> </li>
                                 <li>Luna de miel: <a  class="list-link" href="https://www.lunademiel.com.pe/" target="_blank" >https://www.lunademiel.com.pe</a> </li>
