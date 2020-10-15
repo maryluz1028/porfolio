@@ -41,13 +41,13 @@
               </v-layout> 
         </v-container>
       </v-card-title>
-
+ 
       <v-card-actions class=" footer-bottom  justify-center py-4 font-weight-thin   " > 
        Copyright &copy;{{ new Date().toISOString().substr(0, 4)}} — Wilber Pariona
       </v-card-actions>
-    </v-card>
-  </v-footer> 
-</template>
+    </v-card> 
+  </v-footer>  
+</template> 
 <script>
 export default {
       data: () => ({ 
@@ -61,7 +61,7 @@ export default {
 }
 </script>
 <style lang="scss" >
-      
+
     .footer{
       &-contact{
         box-shadow: var(--shadow-lg);
