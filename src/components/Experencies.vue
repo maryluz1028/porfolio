@@ -9,7 +9,7 @@
                     </v-avatar>
                 </template>
                 <template v-slot:opposite  align-start >
-                    <span >Agosto 2019 - Mayo 2019</span>
+                    <span >Agosto 2019 - Enero 2021</span>
                 </template>
 
                 <v-card color="white lighten-1 pt-4 experencie-card "
@@ -20,21 +20,28 @@
                             <h2 class="black--text subtitle-span ">Cargo: <span>Desarollador Web</span></h2> 
                             <h2 class="black--text mt-3 " >Funciones:</h2  >  
                             <ul class="list mt-2" >
-                                <li>Maquetar webs y landings</li>
-                                <li>Programar webs</li>
-                                <li>Optimizar webs y tiendas online</li>
-                                <li>Maquetar emailings</li>
-                                <li> Subir a producción</li> 
+                                <li>Desarrollar páginas Webs</li> 
+                                <li>Desarrollar Tiendas Online</li> 
+                                <li>Configurar SEO esencial para Webs</li> 
+                                <li>Desarrollar landings</li> 
+                                <li>Optimizar Webs</li>
+                                <li>Maquetar Emailings personalizadas </li>
+                                <li>Subir Web a producción</li>
                             </ul>
                             <h2  class="black--text mt-3 " >Logros:</h2>
                              <ul class="list list-success mt-2" >
+                                 <h3  class="font-weight-bold roboto-condensed-bold black--text mt-3 mb-2 " >Páginas Webs</h3>
                                 <li>Prestige Dental Care: <a  class="list-link" href="https://prestigedentalcarefl.com" target="_blank" >https://prestigedentalcarefl.com</a> </li>
-                                <li>Nuevo mundo espacios: <a  class="list-link" href="http://www.nuevomundoespacios.com.pe/" target="_blank" >http://www.nuevomundoespacios.com.pe/</a> </li>
-                                <li>Cyber Week Baby: <a  class="list-link" href="https://cyberweekbyby.feriasdigitales.pe/" target="_blank" >https://cyberweekbyby.feriasdigitales.pe/</a> </li>
-                                <li>Tendenze Perú: <a  class="list-link" href="https://nuevo.tendenzeperu.com/" target="_blank" >https://nuevo.tendenzeperu.com</a> </li>
-                                <li>Luna de miel: <a  class="list-link" href="https://www.lunademiel.com.pe/" target="_blank" >https://www.lunademiel.com.pe</a> </li>
                                 <li>Ferias Digitales: <a  class="list-link" href="https://feriasdigitales.pe/" target="_blank" >https://feriasdigitales.pe/</a> </li>
-                                <li>Ilmagazzino: <a  class="list-link" href="https://maga.tendenzeperu.com/" target="_blank" >https://ilmagazzinodellesorelle.com</a> </li>
+                                <li>Nuevo mundo espacios: <a  class="list-link" href="http://www.nuevomundoespacios.com.pe/" target="_blank" >http://www.nuevomundoespacios.com.pe/</a> </li>
+                                <li>Call2action: <a  class="list-link" href="https://call2action.pe/" target="_blank" >https://call2action.pe/</a> </li>
+                                <li>Grupo Tendenze Comunicaciones: <a  class="list-link" href="https://tendenzeperu.com/" target="_blank" >https://nuevo.tendenzeperu.com</a> </li>
+                                <li>Luna de miel: <a  class="list-link" href="https://www.lunademiel.com.pe/" target="_blank" >https://www.lunademiel.com.pe</a> </li>
+                                <li>IGC: <a  class="list-link" href="https://igc.edu.pe/" target="_blank" >https://igc.edu.pe/</a> </li>
+                                  <h3  class="font-weight-bold roboto-condensed-bold black--text mt-3 mb-2 " >Tiendas Online</h3>
+                                <li>Cyber week Meat Fest: <a  class="list-link" href="https://cyberweekmeatfest.feriasdigitales.pe/" target="_blank" >https://cyberweekmeatfest.feriasdigitales.pe</a> </li>
+                                <li>Cyber Week Baby: <a  class="list-link" href="https://cyberweekbyby.feriasdigitales.pe/" target="_blank" >https://cyberweekbyby.feriasdigitales.pe/</a> </li>
+                                <li>Ilmagazzino: <a  class="list-link" href="https://ilmagazzinodellesorelle.com/" target="_blank" >https://ilmagazzinodellesorelle.com/</a> </li>
                             </ul> 
                           
                         </v-card-text>  
@@ -60,10 +67,10 @@
                         <h2 class="black--text mt-3" >Funciones:</h2> 
                         <ul class="list mt-2" >
                             <li>Diseñar Web</li>
-                            <li>Maquetar Web </li>
-                            <li>Programar</li>
-                            <li>Maquetar mailings</li>
-                            <li>Subir a producción</li> 
+                            <li>Desarrollar Web </li> 
+                            <li>Configurar SEO esencial para Webs</li> 
+                            <li>Maquetar emailings personalizadas</li>
+                            <li>Subir Web a producción</li> 
                         </ul>
                         <h2 class="black--text mt-3" >Logros:</h2> 
                         <ul class="list list-success mt-2" >
@@ -102,7 +109,7 @@
                         <h2  class="black--text mt-3 " >Logros:</h2>
                             <ul class="list list-success mt-2" >
                              <li>Brinde apoyo al equipo de sistemas para cumplir el objetivo de facilitar información a los alumnos en las distintas plataformas de la institución. </li>
-                             <li>Ahora Idat es dueño de Iberotec: <a  class="list-link" href="https://web.facebook.com/Iberotec/?_rdc=1&_rdr" target="_blank" >https://web.facebook.com/Iberotec/?_rdc=1&_rdr</a> </li>
+                             <li>Iberotec actualmente pertenece a Idat: <a  class="list-link" href="https://web.facebook.com/Iberotec/?_rdc=1&_rdr" target="_blank" >https://web.facebook.com/Iberotec/?_rdc=1&_rdr</a> </li>
                            </ul>   
                     </v-card-text>  
                 </v-card>

@@ -1,5 +1,5 @@
 <template>  
-<div data-aos="fade-up"  data-aos-offset="200"  data-aos-once="true" data-aos-id="knoledgeaos"> 
+<div data-aos="fade-up"  data-aos-offset="200"  data-aos-once="true" data-aos-id="knoledgeaos" data-aos-delay="100" > 
         <div class="text-xs-center">
           <v-container grid-list-sm>
             <v-layout row wrap>
@@ -8,10 +8,10 @@
                 :rotate="360"
                 :size="100"
                 :width="15"
-                :value="valueProgress-5"
+                :value="valueProgress"
                 color="teal"
                 >
-                {{ valueProgress-5 }}%
+                {{ valueProgress }}%
                 </v-progress-circular>
                 <p>Html5, Pug, Css3 & Sass</p>
               </v-flex>
@@ -20,10 +20,10 @@
                 :rotate="180"
                 :size="100"
                 :width="15"
-                :value="valueProgress-5"
+                :value="valueProgress"
                 color="orange"
                 >
-                {{ valueProgress-5 }}%
+                {{ valueProgress }}%
                 </v-progress-circular>  
                 <p>Tailwindcss, Bootstrap, Materializecss, Foundation & EDgrid</p>
               </v-flex>
@@ -44,70 +44,70 @@
                 :rotate="-90"
                 :size="100"
                 :width="15"
-                :value="valueProgress-10"
+                :value="valueProgress-5"
                 color="primary"
                 >
-                {{ valueProgress-10 }}%
+                {{ valueProgress-5 }}%
                 </v-progress-circular>
-                <p>JavaScript, POO, Ajax, JSON & JQuery</p> 
-              </v-flex>
-              <v-flex xs12 sm6 md4 lg3 xl3>  
-                <v-progress-circular
-                :rotate="180"
-                :size="100"
-                :width="15"
-                :value="valueProgress-15"
-                color="green"
-                >
-                {{ valueProgress-15 }}%
-                </v-progress-circular>  
-                <p>Git, GitHub, GitLab & Markdown</p>
-              </v-flex>
+                <p>JavaScript, POO, Ajax, Axios, JSON & JQuery</p> 
+              </v-flex> 
               <v-flex xs12 sm6 md4 lg3 xl3> 
                 <v-progress-circular
                 :rotate="90"
                 :size="100"
                 :width="15"
-                :value="valueProgress-20"
+                :value="valueProgress-10"
                 color="red"
                 >
-                {{ valueProgress-20 }}%
+                {{ valueProgress-10 }}%
                 </v-progress-circular>
-                <p>Vue.js, React.js, Babel & Webpack</p>
+                <p>React.js, Vue.js, Babel & Webpack</p>
               </v-flex>  
                <v-flex xs12 sm6 md4 lg3 xl3>  
                 <v-progress-circular
                 :rotate="180"
                 :size="100"
                 :width="15"
-                :value="valueProgress-20"
-                color="light-blue darken-2"
+                :value="valueProgress-10"
+                color="green"
                 >
-                {{ valueProgress-20 }}%
+                {{ valueProgress-10 }}%
                 </v-progress-circular>  
-                <p>Adove XD, Photoshop & Illustrator</p>
-              </v-flex> 
-              <v-flex xs12 sm6 md4 lg3 xl3>  
+                <p>Git, GitHub, GitLab & Markdown</p>
+              </v-flex>
+               <v-flex xs12 sm6 md4 lg3 xl3>  
                 <v-progress-circular
                 :rotate="180"
                 :size="100"
                 :width="15"
-                :value="valueProgress-25"
+                :value="valueProgress-15"
                 color="teal darken-1"
                 >
-                {{ valueProgress-25 }}%
+                {{ valueProgress-15 }}%
                 </v-progress-circular>  
                 <p>SQL, MySQL, MongoDB & Firebase</p>
               </v-flex> 
+               <v-flex xs12 sm6 md4 lg3 xl3>  
+                <v-progress-circular
+                :rotate="180"
+                :size="100"
+                :width="15"
+                :value="valueProgress-15"
+                color="light-blue darken-2"
+                >
+                {{ valueProgress-15 }}%
+                </v-progress-circular>  
+                <p>Adove XD, Photoshop & Illustrator</p>
+              </v-flex>  
               <v-flex xs12 sm6 md4 lg3 xl3>  
                 <v-progress-circular
                 :rotate="180"
                 :size="100"
                 :width="15"
-                :value="valueProgress-30"
+                :value="valueProgress-20"
                 color="lime darken-1"
                 >
-                {{ valueProgress-30 }}%
+                {{ valueProgress-20 }}%
                 </v-progress-circular>  
                 <p>Node, NPM, Yarn & Gulp </p>
               </v-flex> 
@@ -116,12 +116,12 @@
                 :rotate="180"
                 :size="100"
                 :width="15"
-                :value="valueProgress-35"
+                :value="valueProgress-20"
                 color="cyan darken-2"
                 >
-                {{ valueProgress-35 }}%
+                {{ valueProgress-20 }}%
                 </v-progress-circular>  
-                <p>PHP & Java </p>
+                <p>PHP </p>
               </v-flex>
             </v-layout>
           </v-container>  
@@ -137,15 +137,15 @@
         interval: {},
         valueProgress: 0,  
       }
-    },
+    }, 
     mounted () { 
-    this.getValue()   
+      this.getValue()   
+      
     },
     methods:{
        getValue(){
            document.addEventListener('aos:in:knoledgeaos', () => { 
-             this.valueProgress = 100
-            
+            this.valueProgress = 100
           });  
        } 
     } 
@@ -157,6 +157,8 @@
     .v-progress-circular{ 
         margin: 1rem
     }
-  
+  .v-progress-circular__overlay{
+    transition: all 1s ease-in-out;
+  }
 
 </style>

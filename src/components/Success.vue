@@ -38,25 +38,39 @@ export default {
       return{
         pages:[
           {
-            imgUrl:'igcscreenshot.jpg',
-            name:'IGC - Instituto de Gerencia y Gestión',
-            sector:'Eduación', 
-            link:'https://igc.edu.pe'
-          }, 
-          {
-            imgUrl:'tendenzescreenshot.jpg',
-            name:'Tendenze Perú',
-            sector:'Agencia de Marketing',
-            link:'https://nuevo.tendenzeperu.com'
+            imgUrl:'prestigescreenshot.jpg',
+            name:'Prestige Dental Care',
+            sector:'Salud', 
+            link:'https://prestigedentalcarefl.com/'
           },
-          {
+         
+           {
             imgUrl:'nmscreenshot.jpg',
             name:'Nuevo Mundo Espacios',
             sector:'Inmobiliaria',
             link:'http://www.nuevomundoespacios.com.pe/'
           },
           {
-            imgUrl:'feriasdigitalescreenshot.jpg',
+            imgUrl:'meatfestscreenshot.png',
+            name:'Cyber Week MEAT FEST',
+            sector:'Tienda de comestibles y especialidades', 
+            link:'https://cyberweekmeatfest.feriasdigitales.pe/'
+          }, 
+          {
+            imgUrl:'call2actionscreenshot.png',
+            name:'Call2action',
+            sector:'Agencia de Marketing',
+            link:'https://call2action.pe/'
+          },
+          {
+            imgUrl:'tendenzescreenshot.png',
+            name:'Tendenze Perú Comunicaciones',
+            sector:'Agencia de Marketing',
+            link:'https://tendenzeperu.com/'
+          },
+         
+          {
+            imgUrl:'feriasdigitalesscreenshot.png',
             name:'Ferias Digitales',
             sector:'Agencia de Marketing', 
             link:'https://feriasdigitales.pe/'
@@ -71,20 +85,21 @@ export default {
             imgUrl:'magaescreenshot.png',
             name:'Il magazzino delle sorelle',
             sector:'Decoración', 
-            link:'https://maga.tendenzeperu.com/'
+            link:'https://ilmagazzinodellesorelle.com/'
           },
-          {
-            imgUrl:'prestigescreenshot.jpg',
-            name:'Prestige Dental Care',
-            sector:'Salud', 
-            link:'https://prestigedentalcarefl.com/'
-          },
+        
           {
             imgUrl:'cyberscreenshot.png',
-            name:'Cyber Week Baby',
+            name:'Cyber Week Bebe & Mamá',
             sector:'Tienda', 
             link:'https://cyberweekbyby.feriasdigitales.pe/'
-          } 
+          }, 
+           {
+            imgUrl:'igcscreenshot.jpg',
+            name:'IGC - Instituto de Gerencia y Gestión',
+            sector:'Capacitación', 
+            link:'https://igc.edu.pe'
+          }
           ]
       }
     }

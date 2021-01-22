@@ -19,8 +19,8 @@
             <v-flex xs12 sm12 md10 lg10 xl8 d-flex align-center="true" >
               <div  class="d-inline-flex wrap  footer-contact-info " > 
                   <h4 class="slash " >Correo: <span class="font-weight-regular">parionahuaraca@gmail.com</span></h4>
-                  <h4 class="slash " >Celular: <span class="font-weight-regular">995871015</span></h4>
-                  <h4 class=""   >Lugar de recidencia: <span class="font-weight-regular">Lince - Lima - Perú</span></h4> 
+                  <h4 class="slash " >Celular: <span class="font-weight-regular">938343796</span></h4>
+                  <h4 class=""   >Lugar de recidencia: <span class="font-weight-regular">Lima - Perú</span></h4> 
               </div> 
             </v-flex> 
           </v-layout>

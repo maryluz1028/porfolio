@@ -1,6 +1,6 @@
 <template>
 <header  class="header" v-sticky>  
-  <v-container> 
+  <v-container > 
     <v-layout row wrap>
       <v-flex xs4 md2>
           <div class="header-logo"><img :src="require(`../assets/favicon.png`)" alt="Wilber Pariona" ></div> 
