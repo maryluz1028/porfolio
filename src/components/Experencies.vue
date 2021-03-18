@@ -39,6 +39,7 @@
                                 <li>Luna de miel: <a  class="list-link" href="https://www.lunademiel.com.pe/" target="_blank" >https://www.lunademiel.com.pe</a> </li>
                                 <li>IGC: <a  class="list-link" href="https://igc.edu.pe/" target="_blank" >https://igc.edu.pe/</a> </li>
                                   <h3  class="font-weight-bold roboto-condensed-bold black--text mt-3 mb-2 " >Tiendas Online</h3>
+                                <li>Cyber week TododKasa: <a  class="list-link" href="https://cyberweektododkasa.feriasdigitales.pe/" target="_blank" >https://cyberweektododkasa.feriasdigitales.pe/</a> </li>
                                 <li>Cyber week Meat Fest: <a  class="list-link" href="https://cyberweekmeatfest.feriasdigitales.pe/" target="_blank" >https://cyberweekmeatfest.feriasdigitales.pe</a> </li>
                                 <li>Cyber Week Baby: <a  class="list-link" href="https://cyberweekbyby.feriasdigitales.pe/" target="_blank" >https://cyberweekbyby.feriasdigitales.pe/</a> </li>
                                 <li>Ilmagazzino: <a  class="list-link" href="https://ilmagazzinodellesorelle.com/" target="_blank" >https://ilmagazzinodellesorelle.com/</a> </li>

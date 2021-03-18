@@ -38,6 +38,12 @@ export default {
       return{
         pages:[
           {
+            imgUrl:'cyberweektododkasa.png',
+            name:'Cyber Week TododKasa',
+            sector:'Tienda', 
+            link:'https://cyberweektododkasa.feriasdigitales.pe/'
+          },
+          {
             imgUrl:'prestigescreenshot.jpg',
             name:'Prestige Dental Care',
             sector:'Salud', 
