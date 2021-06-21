@@ -38,7 +38,13 @@ export default {
       return{
         pages:[
           {
-            imgUrl:'cyberweektododkasa.png',
+            imgUrl:'pigeon.jpg',
+            name:'Pigeon LATAM',
+            sector:'Cuidado del bebé', 
+            link:'https://pigeonlatam.com'
+          },
+          {
+            imgUrl:'cyberweektododkasa.jpg',
             name:'Cyber Week TododKasa',
             sector:'Tienda', 
             link:'https://cyberweektododkasa.feriasdigitales.pe/'
