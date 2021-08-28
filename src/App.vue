@@ -16,8 +16,11 @@ export default {
   }
 }
 </script> 
-
+ 
 <style lang="scss">
+  :root{
+     padding:0;
+  }
   $primary:#183661;
     .go-up{
       position: absolute;
